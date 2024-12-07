@@ -1,0 +1,70 @@
+/* #region management */
+.management {
+  padding: 100px 0;
+  color: #22343d;
+}
+management .container {
+  padding: 0 40px;
+}
+.management .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.management-img {
+  margin-bottom: 50px;
+}
+.subtitle-management {
+  margin-bottom: 12px;
+}
+.management-title {
+  margin-bottom: 16px;
+}
+.management-subtitle {
+  margin-bottom: 8px;
+}
+.management-text {
+  margin-bottom: 16px;
+}
+.management-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.subtitle-management {
+  margin-bottom: 12px;
+}
+.management-img {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .management .container {
+    align-items: center;
+  }
+  .management-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .management-list {
+    flex-direction: row;
+  }
+  .management-item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .management .container {
+    flex-direction: row;
+    padding: 0 15px;
+  }
+  .management-list {
+    flex-direction: column;
+  }
+  .description {
+    width: 486px;
+    margin-right: 84px;
+  }
+  .management-item {
+    width: 100%;
+  }
+}
+/* #endregion */
