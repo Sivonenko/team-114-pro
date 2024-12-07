@@ -1,9 +1,8 @@
 /* Styles for Mobile devices */
 .container {
-  min-width: 320px;
-  max-width: 375px;
+  max-width: 411px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 32x;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
@@ -14,6 +13,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1150px;
+    padding: 0 20px;
   }
 }
